@@ -19,7 +19,10 @@ const app = express();
 // Middlewares
 app.use(
   cors({
-    origin: "http://localhost:5173", // Adjust this to your frontend URL
+    origin: [
+      "http://localhost:5173",
+      "https://inlighn-tech-shopora-frontend.vercel.app/",
+    ], // Adjust this to your frontend URL
     credentials: true, // Allow credentials (cookies, authorization headers, etc.)
   })
 );
