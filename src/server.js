@@ -21,7 +21,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://inlighn-tech-shopora-frontend.vercel.app/",
+      "https://inlighn-tech-shopora-frontend.vercel.app",
     ], // Adjust this to your frontend URL
     credentials: true, // Allow credentials (cookies, authorization headers, etc.)
   })
